@@ -1,6 +1,6 @@
 # Ljcomments::Rails
 
-TODO: Write a gem description
+Интегрирует скрипт по адресу http://l-stat.livejournal.com/js/partners/ljcomments.min.js в Rails asset pipeline
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Пропишите в app/assets/javascripts/application.js:
+
+    //= require ljcomments-rails
 
 ## Contributing
 
@@ -27,3 +29,4 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
